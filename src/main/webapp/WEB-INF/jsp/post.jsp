@@ -3,7 +3,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="stylesheet" href="/webjars/bootstrap/bootstrap.min.css" />
 <title>${post.bookTitle}</title>
@@ -26,6 +27,9 @@
 			<button type="button" class="btn btn-danger">Delete</button>
 		</a>
 	</section>
+	<footer class="container">
+		<a href="http://bookonspring.com">BookOnSpring</a>
+	</footer>
 	<script src="/webjars/jquery/jquery.min.js"></script> <!-- ① -->
 	<script type="text/javascript">
 		$("#delete").click(function() { <!-- ② -->
